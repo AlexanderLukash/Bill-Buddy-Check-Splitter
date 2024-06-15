@@ -5,9 +5,13 @@ description = ""
 authors = ["Lukash"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
+aiohttp = "^3.9.5"
+aiogram = "^3.7.0"
+pydantic-settings = "^2.3.3"
 
 
 [tool.poetry.group.dev.dependencies]
