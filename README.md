@@ -1,2 +1,2 @@
 # Bill-Buddy-Check-Splitter
-Bill Buddy is an innovative solution designed to streamline the process of splitting bills after social gatherings.
+After hanging out at bars, restaurants, or anywhere else, there's always the problem of splitting the check. Something is ordered for everyone, someone pays for everything, someone orders a cab, etc. There are a lot of difficulties in settling debts honestly. This bot is designed to solve this problem.
