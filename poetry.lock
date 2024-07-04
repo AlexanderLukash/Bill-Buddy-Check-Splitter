@@ -214,6 +214,20 @@ files = [
 ]
 
 [[package]]
+name = "ecs-logging"
+version = "2.2.0"
+description = "Logging formatters for ECS (Elastic Common Schema) in Python"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "ecs_logging-2.2.0-py3-none-any.whl", hash = "sha256:f6e22d267770b06f797076f49b5fcc9d97108b22f452f5f9ed4b5367b1e61b5b"},
+    {file = "ecs_logging-2.2.0.tar.gz", hash = "sha256:1dc9e216f614129db0e6a2f9f926da4e4cf8edf8de16d1045a20aa8e950291d3"},
+]
+
+[package.extras]
+develop = ["elastic-apm", "mock", "pytest", "pytest-cov", "structlog"]
+
+[[package]]
 name = "filelock"
 version = "3.15.1"
 description = "A platform independent file lock."
@@ -852,4 +866,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "6bf4f5f9a9bcb88b01bf34a7421900803a2b431921b0d0cf508e533349519fdb"
+content-hash = "0488d0c257c403a10e1c13a32938230a8adaf54dbaba1a9f315b7b3a1e8a5efc"

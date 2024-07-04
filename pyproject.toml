@@ -12,6 +12,7 @@ python = "^3.12"
 aiohttp = "^3.9.5"
 aiogram = "^3.7.0"
 pydantic-settings = "^2.3.3"
+ecs-logging = "^2.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
